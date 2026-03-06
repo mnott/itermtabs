@@ -1,0 +1,27 @@
+[project]
+name = "itermtabs"
+version = "1.0.0"
+description = "Rename iTerm2 tabs programmatically via iTerm2's native WebSocket API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Matthias Nott" }
+]
+keywords = ["iterm2", "tab", "rename", "terminal", "macos"]
+
+dependencies = [
+    "iterm2>=2.7",
+    "typer>=0.9",
+    "rich>=13.0",
+]
+
+[project.scripts]
+itermtabs = "itermtabs:app"
+
+[project.urls]
+Repository = "https://github.com/mnott/itermtabs"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

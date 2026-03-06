@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tgz
+
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+rust/target/
+
+.DS_Store

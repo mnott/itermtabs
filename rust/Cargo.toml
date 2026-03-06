@@ -1,0 +1,14 @@
+[package]
+name = "itermtabs"
+version = "1.0.0"
+edition = "2021"
+description = "Rename iTerm2 tabs programmatically via the native WebSocket API"
+license = "MIT"
+repository = "https://github.com/mnott/itermtabs"
+authors = ["Matthias Nott"]
+keywords = ["iterm2", "tab", "rename", "terminal", "macos"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+tungstenite = { version = "0.26", features = ["handshake"] }
+clap = { version = "4", features = ["derive"] }
