@@ -1,6 +1,6 @@
 {
   "name": "@tekmidian/itermtabs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Rename iTerm2 tabs programmatically via iTerm2's native WebSocket API",
   "type": "module",
   "bin": {
