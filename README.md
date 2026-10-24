@@ -28,8 +28,10 @@ The Node.js version connects directly to iTerm2's WebSocket API using a hand-rol
 ### Install
 
 ```bash
-npm install -g @tekmidian/itermtabs
+npm i -g https://github.com/mnott/itermtabs/releases/latest/download/itermtabs.tgz
 ```
+
+Update: `pai update --package @tekmidian/itermtabs`. The npm registry is no longer updated; releases come from GitHub.
 
 ### Usage
 
